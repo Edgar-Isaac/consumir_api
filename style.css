@@ -1,0 +1,35 @@
+@font-face{
+    font-family: phas;
+    src: url('/fonts/KillingFont.otf');
+}
+
+#header{
+       
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+#fondo{
+    top: 160px;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: 2;
+}
+
+#elem{
+    position: absolute;
+    top: 180px;
+    width: 280px;
+    background-color: rgb(43, 90, 134);
+    color: white;
+    z-index: 3;
+    font-family: phas;
+    font-size: small;
+    border-radius: 10px;
+    left: 20px;
+    padding: 5px;
+}
